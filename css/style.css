@@ -1,0 +1,111 @@
+nav{
+    background-color: rgba(137, 135, 135, 0.3);
+    color: white;
+}
+nav a{
+    color: white;
+}
+#banner .carousel-inner .carousel-item .carousel-caption{
+    padding: 20px;
+    bottom: 100px;
+}
+#banner .icon {
+    display: flex;
+    justify-content: center;
+}
+#banner .icon .div1,.div2,.div3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    margin-top: 40px;
+    margin-right: 10px;
+    position: relative;
+}
+#banner .icon .div1{
+    background-color: blue;
+}
+#banner .icon .div2{
+    background-color: skyblue;
+}
+#banner .icon .div3{
+    background-color: orangered;
+}
+#banner .icon .div1 i,.div2 i,.div3 i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#information {
+    background-color: rgb(236,236,236);
+    padding: 30px;
+}
+#information .row .col1 p{
+    text-align: justify;
+    word-wrap: break-word;
+    word-break: break-all;
+}    
+#information .row .col1 .more {
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+}
+#service .class h1::after{
+    content: "";
+    display: block;
+    width: 100px;
+    background: red;
+    height: 3px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+#service .row .col .card .cardbody {
+    background: white;
+    padding: 30px 20px;
+    border: 1px solid rgb(184, 183, 183);
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(202, 201, 201);
+}
+#service .container .row .col-md-4 .card .cardbody img{
+    animation: name 2s ease infinite forwards;
+}
+@keyframes name{
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateX(360deg);
+    }
+}
+#money {
+    background-color: rgb(236,236,236);
+    padding: 60px;
+}
+#footer {
+    background-color: rgb(37, 37, 37);
+}
+#footer .row {
+    color: rgb(172, 170, 170);
+}
+#footer .arrow{
+    text-align: center;
+    font-size: x-large;
+}
+#footer .arrow i{
+    color: white;
+}
+#footer .rights{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+#footer .input-group-text{
+    justify-content: center;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    width: 70px;
+}
